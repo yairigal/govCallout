@@ -23,6 +23,8 @@ namespace UI
         public MainWindow()
         {
             InitializeComponent();
+            rootFrame.Navigate(new MainSkeletonPage());
         }
+
     }
 }
